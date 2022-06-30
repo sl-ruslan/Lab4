@@ -1,7 +1,7 @@
 const { Telegraf } = require('telegraf')
 
 const bot = new Telegraf("5452909489:AAGvNGhBZrmkFhghKChXyjUL0bJgiJcK-M8")
-bot.start((ctx) => ctx.reply('Hello, user'))
+bot.start((ctx) => ctx.reply('Привіт хазяїн'))
 bot.hears(`hello`, (ctx) => ctx.reply('Привіт'))
 bot.launch()
 
